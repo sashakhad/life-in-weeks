@@ -45,6 +45,12 @@ export default function WeekBox({
         return "border-life-in-weeks-locations-hometown";
       case "college-town":
         return "border-life-in-weeks-locations-college-town";
+      case "paris":
+        return "border-life-in-weeks-locations-paris";
+      case "new-york":
+        return "border-life-in-weeks-locations-new-york";
+      case "san-francisco":
+        return "border-life-in-weeks-locations-san-francisco";
       case "big-city":
         return "border-life-in-weeks-locations-big-city";
       case "small-town":
