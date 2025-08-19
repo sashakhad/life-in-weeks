@@ -11,7 +11,7 @@
     {
       "headline": "🖍️ Started school",
       "description": "First day of kindergarten",
-      "based": "Hometown",
+      "based": "Hometown", 
       "doing": "Kindergartner"
     }
   ],
@@ -31,10 +31,34 @@
       "doing": "High school student"
     }
   ],
+  "2008-06-15": [
+    {
+      "headline": "🎓 Graduated high school",
+      "description": "Finished high school with honors",
+      "based": "Hometown",
+      "doing": "Graduate"
+    }
+  ],
   "2008-09-01": [
     {
-      "headline": "🎓 Started college",
+      "headline": "🏫 Started college",
       "description": "Beginning higher education journey",
+      "based": "College Town",
+      "doing": "College student"
+    }
+  ],
+  "2010-06-01": [
+    {
+      "headline": "🌍 Study abroad",
+      "description": "Semester in Europe",
+      "based": "Paris",
+      "doing": "College student"
+    }
+  ],
+  "2010-12-01": [
+    {
+      "headline": "🏫 Back to college",
+      "description": "Returned from study abroad",
       "based": "College Town",
       "doing": "College student"
     }
@@ -44,22 +68,22 @@
       "headline": "🎓 Graduated college",
       "description": "Completed degree program",
       "based": "College Town",
-      "doing": "Graduate"
+      "doing": "Funemployed"
     }
   ],
   "2013-01-01": [
     {
       "headline": "💼 First job",
       "description": "Started professional career",
-      "based": "Big City",
+      "based": "New York",
       "doing": "Working"
     }
   ],
   "2015-03-15": [
     {
       "headline": "🏠 Moved apartments",
-      "description": "Found a better place to live",
-      "based": "Big City",
+      "description": "Found a better place in Brooklyn",
+      "based": "New York",
       "doing": "Working"
     }
   ],
@@ -67,7 +91,7 @@
     {
       "headline": "💼 New job",
       "description": "Career advancement opportunity",
-      "based": "Big City",
+      "based": "New York",
       "doing": "Working"
     }
   ],
@@ -75,7 +99,7 @@
     {
       "headline": "❤️ Met someone special",
       "description": "Life-changing relationship began",
-      "based": "Big City",
+      "based": "New York",
       "doing": "Working"
     }
   ],
@@ -83,7 +107,7 @@
     {
       "headline": "🦠 Pandemic",
       "description": "Global pandemic changed everything",
-      "based": "Big City",
+      "based": "New York",
       "doing": "Working"
     }
   ],
@@ -105,10 +129,42 @@
   ],
   "2024-01-01": [
     {
-      "headline": "🌟 New chapter",
-      "description": "Exciting new opportunities ahead",
-      "based": "Metro Area",
+      "headline": "🌴 Moved to coast",
+      "description": "New adventure by the ocean",
+      "based": "San Francisco",
+      "doing": "Freelancing"
+    }
+  ],
+  "2025-06-01": [
+    {
+      "headline": "🌟 Back to corporate",
+      "description": "Exciting new role at tech company",
+      "based": "San Francisco",
       "doing": "Working"
+    }
+  ],
+  "1999-12-31": [
+    {
+      "headline": "💥 Y2K",
+      "description": "We survived the millennium bug!"
+    }
+  ],
+  "2001-09-11": [
+    {
+      "headline": "💔 9/11",
+      "description": "A day that changed everything"
+    }
+  ],
+  "2007-06-29": [
+    {
+      "headline": "📱 iPhone released",
+      "description": "The world changed forever"
+    }
+  ],
+  "2016-11-08": [
+    {
+      "headline": "🗳️ Election day",
+      "description": "Historic and divisive election"
     }
   ],
   "2075-01-01": [
