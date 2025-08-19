@@ -103,23 +103,128 @@ src/
 middleware.ts                      # Optional authentication
 ```
 
-## Customizing Colors
+## Customizing Colors and Locations
 
-Edit the Tailwind config to change the color scheme:
+### Adding New Locations
+
+Want to use specific cities like "New York", "Paris", or "Tokyo" instead of generic terms? Here's how:
+
+**Step 1: Add the location to your Tailwind config**
+
+Edit `tailwind.config.ts` and add your new location to the `locations` section:
 
 ```typescript
 // tailwind.config.ts
-colors: {
-  "life-in-weeks": {
-    "locations": {
-      "your-location": "#your-color",
-    },
-    "stages": {
-      "your-stage": "#your-color",
+extend: {
+  colors: {
+    "life-in-weeks": {
+      "locations": {
+        "hometown": "#8eb2d6",
+        "college-town": "#FCC737", 
+        "new-york": "#FF6B6B",        // ← Add your new location
+        "paris": "#9B59B6",           // ← Add another location
+        "tokyo": "#3498DB",           // ← And another
+        "london": "#E67E22",          // ← As many as you need
+      },
+      "stages": {
+        // ... existing stages
+      },
     },
   },
 }
 ```
+
+**Step 2: Use the new location in your life events**
+
+Update `src/data/life-events.json` to use your new location names:
+
+```json
+{
+  "2020-03-15": [
+    {
+      "headline": "🗽 Moved to NYC",
+      "description": "Started new job in the big apple",
+      "based": "New York",           // ← Use the display name
+      "doing": "Working"
+    }
+  ],
+  "2022-06-01": [
+    {
+      "headline": "🥖 Studying abroad",
+      "description": "Semester in Paris",
+      "based": "Paris",              // ← Use the display name
+      "doing": "College student"
+    }
+  ]
+}
+```
+
+**Step 3: Restart your dev server**
+
+After updating the Tailwind config, restart your development server:
+
+```bash
+pnpm run dev
+```
+
+### Changing Life Stage Colors
+
+You can also customize the colors for different life stages:
+
+```typescript
+// tailwind.config.ts
+"stages": {
+  "i-was-tiny": "#FFF8DC",          // Light cream
+  "kindergartner": "#FFE4B5",       // Moccasin  
+  "student": "#E0F6FF",             // Light blue
+  "high-school-student": "#D4F1D4", // Light green
+  "college-student": "#FFE4E1",     // Misty rose
+  "working": "#E6E6FA",             // Lavender
+  "freelancing": "#F0E68C",         // Khaki
+  "retired": "#DDA0DD",             // Plum
+}
+```
+
+### Color Tips
+
+- **Use hex colors** (#FF6B6B) for precise control
+- **Keep contrast in mind** - borders should be visible against the cream background
+- **Test your colors** by hovering over week boxes to see how they look
+- **Consider color meaning** - maybe use blue for coastal cities, green for nature locations
+- **Use online color pickers** like [Coolors.co](https://coolors.co) to find great palettes
+
+### Location Name Format
+
+- **In Tailwind config**: Use lowercase with hyphens (`"new-york"`, `"san-francisco"`)
+- **In life-events.json**: Use the display name (`"New York"`, `"San Francisco"`)
+- The app automatically converts display names to CSS class names
+
+### Example: Complete Location Setup
+
+Here's a complete example of adding "San Francisco":
+
+1. **Add to tailwind.config.ts:**
+```typescript
+"locations": {
+  "san-francisco": "#FF4500",  // Orange red
+}
+```
+
+2. **Use in life-events.json:**
+```json
+{
+  "2023-01-01": [
+    {
+      "headline": "🌉 West Coast move",
+      "description": "New adventure in SF",
+      "based": "San Francisco",
+      "doing": "Working"
+    }
+  ]
+}
+```
+
+3. **Restart dev server and enjoy your personalized timeline!**
 
 ## Inspiration
 
