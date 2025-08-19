@@ -1,0 +1,120 @@
+{
+  "1990-01-01": [
+    {
+      "headline": "🐣 Born",
+      "description": "Welcome to the world!",
+      "based": "Hometown",
+      "doing": "I was tiny"
+    }
+  ],
+  "1995-09-01": [
+    {
+      "headline": "🖍️ Started school",
+      "description": "First day of kindergarten",
+      "based": "Hometown",
+      "doing": "Kindergartner"
+    }
+  ],
+  "2000-09-01": [
+    {
+      "headline": "📚 Elementary school",
+      "description": "Learning to read and write",
+      "based": "Hometown",
+      "doing": "Student"
+    }
+  ],
+  "2004-09-01": [
+    {
+      "headline": "🏫 High school",
+      "description": "Started high school journey",
+      "based": "Hometown",
+      "doing": "High school student"
+    }
+  ],
+  "2008-09-01": [
+    {
+      "headline": "🎓 Started college",
+      "description": "Beginning higher education journey",
+      "based": "College Town",
+      "doing": "College student"
+    }
+  ],
+  "2012-06-15": [
+    {
+      "headline": "🎓 Graduated college",
+      "description": "Completed degree program",
+      "based": "College Town",
+      "doing": "Graduate"
+    }
+  ],
+  "2013-01-01": [
+    {
+      "headline": "💼 First job",
+      "description": "Started professional career",
+      "based": "Big City",
+      "doing": "Working"
+    }
+  ],
+  "2015-03-15": [
+    {
+      "headline": "🏠 Moved apartments",
+      "description": "Found a better place to live",
+      "based": "Big City",
+      "doing": "Working"
+    }
+  ],
+  "2017-08-01": [
+    {
+      "headline": "💼 New job",
+      "description": "Career advancement opportunity",
+      "based": "Big City",
+      "doing": "Working"
+    }
+  ],
+  "2019-02-14": [
+    {
+      "headline": "❤️ Met someone special",
+      "description": "Life-changing relationship began",
+      "based": "Big City",
+      "doing": "Working"
+    }
+  ],
+  "2020-03-15": [
+    {
+      "headline": "🦠 Pandemic",
+      "description": "Global pandemic changed everything",
+      "based": "Big City",
+      "doing": "Working"
+    }
+  ],
+  "2021-06-01": [
+    {
+      "headline": "🏠 Remote work",
+      "description": "Embraced remote work lifestyle",
+      "based": "Small Town",
+      "doing": "Working"
+    }
+  ],
+  "2022-12-01": [
+    {
+      "headline": "🚀 Started freelancing",
+      "description": "Became independent contractor",
+      "based": "Small Town",
+      "doing": "Freelancing"
+    }
+  ],
+  "2024-01-01": [
+    {
+      "headline": "🌟 New chapter",
+      "description": "Exciting new opportunities ahead",
+      "based": "Metro Area",
+      "doing": "Working"
+    }
+  ],
+  "2075-01-01": [
+    {
+      "headline": "☠️ Life expectancy",
+      "description": "Estimated end of life"
+    }
+  ]
+}
